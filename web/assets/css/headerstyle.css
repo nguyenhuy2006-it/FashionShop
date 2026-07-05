@@ -1,0 +1,86 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 1, 2026, 12:37:56 AM
+    Author     : HBK
+*/
+body {
+    background-color: brown;
+}
+
+.header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 30px;
+    height: 60px;
+}
+
+.logo span {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.list {
+    display: flex;
+}
+
+.list li {
+    padding: 0 20px;
+    list-style: none;
+}
+
+.list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.toolbar {
+    display: flex;
+}
+
+.search {
+    outline: solid 0.6px #ccc;
+    height: 30px;
+    width: 300px;
+    border-radius: 9999px;
+}
+
+.search input {
+    margin-left: 10px;
+    padding-left: 5px;
+    border: none;
+    height: 100%;
+    width: 256px;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.cart {
+    margin: 0 10px;
+}
+
+.cart,
+.user {
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-hover:hover {
+    background-color: #e0dcdc;
+    cursor: pointer;
+}
