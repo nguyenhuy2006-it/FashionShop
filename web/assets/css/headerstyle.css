@@ -1,15 +1,3 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : Jul 1, 2026, 12:37:56 AM
-    Author     : HBK
-*/
-body {
-    background-color: brown;
-}
-
 .header {
     background-color: #fff;
     display: flex;
@@ -63,10 +51,6 @@ body {
     outline: none;
 }
 
-.icon:hover {
-    cursor: pointer;
-}
-
 .cart {
     margin: 0 10px;
 }
@@ -83,4 +67,19 @@ body {
 .icon-hover:hover {
     background-color: #e0dcdc;
     cursor: pointer;
+}
+
+.icon-hover {
+    padding: 7px;
+}
+
+
+.login {
+    margin-top: 5px;
+}
+
+
+.login:hover {
+    cursor: pointer;
+    color: #e0dcdc;
 }
